@@ -46,9 +46,12 @@ export const HeroSection = () => {
 			<div className="relative z-10 max-w-5xl mx-auto px-4">
 				<div className="text-center space-y-6">
 					{/* Name Section */}
+					<h1 className="relative text-2xl sm:text-xl md:text-2xl lg:text-3xl font-bold animate-bounce bg-gradient-to-r from-green-400 to-yellow-500 bg-clip-text text-transparent">
+  						Hello World, I am
+					</h1>
 					<div className="relative inline-block px-4 sm:px-0">
 						<div className="absolute -inset-1 bg-gradient-to-r from-[#38b000] via-[#fdc500] to-[#ffd500] rounded-2xl blur-xl opacity-70"></div>
-						<h1 className="relative text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-[#f2e8cf] to-[#efefd0] pb-2">
+						<h1 className="relative text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-[#ffffff] to-[#fefae0] pb-2">
 							Sudhanva R
 						</h1>
 					</div>
