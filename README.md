@@ -10,10 +10,10 @@ You can view the live site here: https://my-portfolio-two-chi-18.vercel.app/
 
 ## 🛠️ Tech Stack
 
-Next.js
-React
-TypeScript
-TailwindCSS
+1)Next.js
+2)React
+3)TypeScript
+4)TailwindCSS
 
 ## 📦 Installation & Setup
 
