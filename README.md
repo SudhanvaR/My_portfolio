@@ -15,6 +15,22 @@ You can view the live site here: https://my-portfolio-two-chi-18.vercel.app/
 3)TypeScript
 4)TailwindCSS
 
+🔄 Deployment
+
+This project is automatically deployed using Vercel.
+
+To deploy manually:
+	1.	Push your changes to GitHub
+	2.	Vercel will auto-detect the update and trigger a new deployment
+	3.	Visit your live site to verify the update
+
+✍️ Customization
+
+To customize the portfolio:
+	•	Edit your content in src/data/ or src/components/
+	•	Update your favicon in the public/ folder (favicon.ico or .png)
+	•	Modify styles using Tailwind in your CSS or component files
+
 ## 📦 Installation & Setup
 
 To run the project locally:
@@ -32,19 +48,3 @@ npm install
 # Start the development server
 npm run dev
 
-
-🔄 Deployment
-
-This project is automatically deployed using Vercel.
-
-To deploy manually:
-	1.	Push your changes to GitHub
-	2.	Vercel will auto-detect the update and trigger a new deployment
-	3.	Visit your live site to verify the update
-
-✍️ Customization
-
-To customize the portfolio:
-	•	Edit your content in src/data/ or src/components/
-	•	Update your favicon in the public/ folder (favicon.ico or .png)
-	•	Modify styles using Tailwind in your CSS or component files
