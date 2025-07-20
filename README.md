@@ -33,16 +33,16 @@ You can view the live site here: https://my-portfolio-two-chi-18.vercel.app/
 
 To run the project locally:
 
-# Clone the repository
+#Clone the repository
 git clone git@github.com:your-username/portfolio.git
 
-# Navigate into the project folder
+#Navigate into the project folder
 cd portfolio
 
-# Install dependencies
+#Install dependencies
 npm install
 
-# Start the development server
+#Start the development server
 npm run dev
 
 
@@ -56,7 +56,9 @@ This project is automatically deployed using Vercel.
 
 To deploy manually:
 	1.	Push your changes to GitHub
+ 
 	2.	Vercel will auto-detect the update and trigger a new deployment
+ 
 	3.	Visit your live site to verify the update
 
 ⸻
@@ -65,5 +67,7 @@ To deploy manually:
 
 To customize the portfolio:
 	•	Edit your content in src/data/ or src/components/
+ 
 	•	Update your favicon in the public/ folder (favicon.ico or .png)
+ 
 	•	Modify styles using Tailwind in your CSS or component files
