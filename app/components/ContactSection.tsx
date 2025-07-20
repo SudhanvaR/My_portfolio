@@ -52,21 +52,6 @@ export const ContactSection = () => {
 							<p className="text-green-500 mt-8 mb-4">$ ls ./social-links</p>
 							<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4">
 								<motion.a
-									href="https://www.instagram.com/sudhanvxr/"
-									whileHover={{ scale: 1.05 }}
-									className="flex items-center gap-3 px-4 py-3 bg-gray-800/50 rounded-lg hover:bg-gray-700/50 transition-colors border border-gray-700/50 group"
-								>
-									<div className="p-2 bg-gray-700/50 rounded-lg group-hover:bg-gray-600/50 transition-colors">
-										<svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 24 24">
-											 <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 1.5A4 4 0 0 0 3.5 7.5v9A4 4 0 0 0 7.5 20.5h9a4 4 0 0 0 4-4v-9a4 4 0 0 0-4-4h-9zm4.5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm4.75-1.25a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-										</svg>
-									</div>
-									<div>
-										<p className="font-semibold text-gray-200">Instagram</p>
-										<p className="text-sm text-gray-400">@sudhanvxr</p>
-									</div>
-								</motion.a>
-								<motion.a
 									href="https://github.com/SudhanvaR"
 									whileHover={{ scale: 1.05 }}
 									className="flex items-center gap-3 px-4 py-3 bg-gray-800/50 rounded-lg hover:bg-gray-700/50 transition-colors border border-gray-700/50 group"
@@ -110,7 +95,21 @@ export const ContactSection = () => {
 										<p className="text-sm text-gray-400">@sudhanva</p>
 									</div>
 								</motion.a>
-								
+								<motion.a
+									href="https://www.instagram.com/sudhanvxr/"
+									whileHover={{ scale: 1.05 }}
+									className="flex items-center gap-3 px-4 py-3 bg-gray-800/50 rounded-lg hover:bg-gray-700/50 transition-colors border border-gray-700/50 group"
+								>
+									<div className="p-2 bg-gray-700/50 rounded-lg group-hover:bg-gray-600/50 transition-colors">
+										<svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 24 24">
+											 <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 1.5A4 4 0 0 0 3.5 7.5v9A4 4 0 0 0 7.5 20.5h9a4 4 0 0 0 4-4v-9a4 4 0 0 0-4-4h-9zm4.5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm4.75-1.25a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+										</svg>
+									</div>
+									<div>
+										<p className="font-semibold text-gray-200">Instagram</p>
+										<p className="text-sm text-gray-400">@sudhanvxr</p>
+									</div>
+								</motion.a>
 							</div>
 						</div>
 					</div>
